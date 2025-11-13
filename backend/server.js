@@ -13,6 +13,8 @@ app.use(bodyParser.json())
 
 let products = [];
 
+const PORT = process.env.PORT || 3000;
+
 // GET endpoint to retrieve all requirements (optional - for fetching existing requirements)
 app.get('/api/requirements', function(req, res) {
     res.status(200).json({
@@ -52,4 +54,6 @@ app.post('/api/requirements', function(req, res) {
     });
 });
 
-app.listen(3000)
+app.listen(PORT, ()=>{
+    console.log(`Server is running on port ${PORT}`);
+})
