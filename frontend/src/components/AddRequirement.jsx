@@ -24,8 +24,10 @@ function AddRequirement() {
     setIsSubmitting(true);
     setSubmitStatus(null);
 
+    const BACKEND_API_URL = "https://agricultural-marketplace.onrender.com";
+
     try {
-      const response = await fetch("/api/requirements", {
+      const response = await fetch(`${BACKEND_API_URL}/api/requirements`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
