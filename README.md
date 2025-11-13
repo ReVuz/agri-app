@@ -2,15 +2,6 @@
 
 This project implements a full-stack solution for the B2B Agricultural Marketplace task, structured as two separate components: a **React frontend** and a **Node.js/Express backend**.
 
-## 📋 Table of Contents
-
-- [Live Application Status](#-live-application-status)
-- [Features](#-features)
-- [Technology Stack](#-technology-stack)
-- [Local Setup Instructions](#-local-setup-instructions)
-- [Core Functionality Testing](#-core-functionality-testing)
-- [Project Structure Details](#-project-structure-details)
-
 ---
 
 ## 🚀 Live Application Status
