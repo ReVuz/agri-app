@@ -3,3 +3,5 @@ const FARMERS = [
   { name: "Maria Garcia", email: "maria.tomato@farm.com", product: "tomato" },
   { name: "David Chen", email: "david.tomato@farm.com", product: "tomato" }
 ];
+
+module.exports = { FARMERS };
